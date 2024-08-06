@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'agp';
+  src: url('./assets/fonts/akzidenzgroteskpro_bold.woff2');
+  src:  local('Akzidenz Grotesk Pro Bold'), local('AkzidenzGroteskPro-Bold'),
+        url('./assets/fonts/akzidenzgroteskpro_bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'agp';
+  src: url('./assets/fonts/akzidenzgroteskpro_medium.woff2');
+  src:  local('Akzidenz Grotesk Pro Medium'), local('AkzidenzGroteskPro-Medium'),
+        url('./assets/fonts/akzidenzgroteskpro_medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'agp';
+  src: url('./assets/fonts/akzidenzgroteskpro_regular.woff2');
+  src:  local('Akzidenz Grotesk Pro Regular'), local('AkzidenzGroteskPro-Regular'),
+        url('./assets/fonts/akzidenzgroteskpro_regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'agp';
+  src: url('./assets/fonts/akzidenzgroteskpro_light.woff2');
+  src:  local('Akzidenz Grotesk Pro Light'), local('AkzidenzGroteskPro-Light'),
+        url('./assets/fonts/akzidenzgroteskpro_light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'agp';
+}
+
+:root {
+  --color-dark: rgb(30, 30, 30);
+  --color-red: rgb(221, 20, 5);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+}
+
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: var(--color-dark);
+  padding: 24px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

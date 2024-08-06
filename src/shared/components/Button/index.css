@@ -1,0 +1,10 @@
+.button {
+  line-height: 70px;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0 40px;
+  border-radius: 8px;
+  color: var(--color-white);
+  background: var(--color-red);
+  transition: .2s ease-in-out;
+}

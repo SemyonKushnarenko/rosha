@@ -1,0 +1,31 @@
+.rosha-modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rosha-modal {
+    padding: 28px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: var(--color-white) 2px solid;
+    background-color: var(--color-dark);
+    gap: 20px;
+}
+
+.rosha-modal-text {
+    font-size: 1.5rem;
+}
+
+
+.rosha-modal-footer {
+    display: flex;
+    gap: 30px;
+}
